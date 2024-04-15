@@ -1,0 +1,31 @@
+﻿@model IEnumerable<PC_WebApp4.Models.Course>
+@{ 
+    ViewData["Title"] = "Home Page";
+
+}
+
+<head>
+
+    </head>
+<div>
+    <table>
+        <thead>
+            <th scope="col">Course ID </th>
+            <th scope="col">Course Name </th>
+            <th scope="col">Rating </th>
+
+
+        </thead>
+        <tbody>
+            @foreach(var course in Model)
+            {
+            <tr>
+                <td>@course.CourseID</td>
+                <td>@course.CourseName</td>
+                <td>@course.Rating</td>
+            </tr>
+            }
+
+        </tbody>
+    </table>
+    </div>
