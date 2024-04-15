@@ -54,4 +54,4 @@ jobs:
           app-name: 'pc-WebAppcore4'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_651524EC08B448C8BDF4FA8079BE47AB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_923080EBCA38460EB684B04C33A45B02 }}
